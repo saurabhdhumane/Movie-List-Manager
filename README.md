@@ -15,4 +15,5 @@
 - This project is licensed under the MIT License. See the LICENSE file for more information.
 
 ## Project Link
-- https://google.com
+[Click here to visit Project](https://saurabhdhumane.github.io/Movie-List-Manager/)
+
