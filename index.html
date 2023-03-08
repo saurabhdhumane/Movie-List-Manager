@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies List - JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div id="page-banner">
+                <h1 class="title" style="color:#fff">Movies Time</h1>
+                <p style="color:#fff">A curated list of the most amazing movies</p>
+            </div>
+        </header>
+
+        <div id="movie-list">
+            <h2 class="title">
+                Movies To Watch
+            </h2>
+            <ul>
+                <li>
+                    <span class="name">The Intern</span>
+                    <span class="edit">edit</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">Integration</span>
+                    <span class="edit">edit</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">The Prestige</span>
+                    <span class="edit">edit</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">The Wolf Of Wall Street</span>
+                    <span class="edit">edit</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">The Avengers</span>
+                    <span class="edit">edit</span>
+                    <span class="delete">delete</span>
+                </li>
+            </ul>
+        </div>
+
+        <form id="add-movie" action="#">
+            <input type="text" placeholder="Add a Movie Name">
+            <button type="submit">Add</button>
+        </form>
+
+        <script src="app.js"></script>
+    </div>
+</body>
+</html>
