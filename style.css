@@ -1,5 +1,5 @@
 body{
-    background-image: url("img/bg.jpg");
+    background-image: url("bg.jpg");
     background-size: 100%;
     font-family: sans-serif;
     color: #444;
@@ -24,7 +24,7 @@ h1, h2{
 }
 
 #page-banner{
-    background-image: url("img/screen.jpg");
+    background-image: url("screen.jpg");
     background-size:100%;
     align-items: center;
     padding: 10px 0;
